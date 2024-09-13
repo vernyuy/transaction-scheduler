@@ -20,6 +20,6 @@ RUN npx tsc --pretty
 # Copy transpiled files
 # COPY ./build ./build
 
-EXPOSE 8080
+EXPOSE 8282
 
 CMD ["node", "index.js"]
