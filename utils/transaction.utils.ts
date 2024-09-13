@@ -15,7 +15,7 @@ export function generateRandomTransaction(): Transaction {
     value: parseInt((Math.random() * 1000).toFixed(2)), // Random amount between 0 and 1000
     confirmed: false,
     timeStamp: Date.now(),
-    sender: "fonchu",
-    receiver: "Estel"
+    sender: uuidv4(),
+    receiver: uuidv4()
   };
 }

@@ -1,7 +1,7 @@
 import axios from 'axios';
 import { Transaction } from '../utils/transaction.utils';
 
-const API_URL = process.env.API_URL || 'http://localhost:8080/api'; // Default URL for API
+const API_URL = process.env.API_URL || 'http://localhost:8282/api'; // Default URL for API
 
 export async function createTransaction(transaction: Transaction): Promise<Transaction> {
   try {
